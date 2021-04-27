@@ -4,9 +4,6 @@ class monster
 {
     public $weapons;
 
-    public function getWeapons($weapons){
-        $this->weapons = $weapons;
-    }
     public function __clone()
     {
 
