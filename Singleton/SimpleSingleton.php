@@ -27,6 +27,6 @@ print_r($firstResult->item); // 2
 
 print_r($secondResult->item);// 2
 
-print_r($firstResult === $secondResult); //true
+var_dump($firstResult === $secondResult); //true
 
 
