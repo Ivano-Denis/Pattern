@@ -2,7 +2,6 @@
 
 class monster
 {
-    public $weapons;
 
     public function __clone()
     {
@@ -13,3 +12,5 @@ class monster
 
 $monster = new monster();
 $Ork = clone $monster;
+
+var_dump($Ork);
