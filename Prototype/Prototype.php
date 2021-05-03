@@ -12,3 +12,5 @@ class monster
 
 
 $monster = new monster();
+
+echo 'privet'
