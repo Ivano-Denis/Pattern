@@ -12,4 +12,4 @@ class monster
 
 
 $monster = new monster();
-
+$Ork = clone $monster;
