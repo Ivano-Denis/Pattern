@@ -1,6 +1,6 @@
 <?php
 
-class monster
+class Monster
 {
     public function __clone()
     {
@@ -8,7 +8,7 @@ class monster
     }
 }
 
-$monster = new monster();
+$monster = new Monster();
 $Ork = clone $monster;
 
 var_dump($Ork);
